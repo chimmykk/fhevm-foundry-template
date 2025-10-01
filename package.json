@@ -1,0 +1,20 @@
+{
+  "name": "fhevm-foundry-template",
+  "version": "1.0.0",
+  "description": "A Foundry-based template for developing Fully Homomorphic Encryption (FHE) enabled Solidity smart contracts using the FHEVM protocol by Zama.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/confidential-contracts": "^0.2.0",
+    "@zama-fhe/oracle-solidity": "^0.1.0"
+  }
+}
